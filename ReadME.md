@@ -17,15 +17,11 @@ uv run python
 > uv --version
 > ```
 
+For details description of the projects, please visited this [link](https://yuyang.info/posts/Projects/VLM/vlm.html). 
+
 
 ### Visual Encoder
+For the image encoder, we use a Vision Transformer (ViT) architecture. The model is designed to process images by dividing them into patches, which are then linearly embedded and passed through a series of transformer blocks. 
 
-using the traditional Vision Transformer (ViT) architecture, the visual encoder processes images to extract meaningful features. The ViT model is pre-trained on a large dataset, enabling it to understand various visual concepts.
+![](assets/vit.gif)
 
-
-### Language Models
-
-Language Model are LLaMA like architectures with:
-- RoPE
-- Grouped Query Attention
-- KV Cache
