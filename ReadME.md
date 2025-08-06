@@ -9,6 +9,13 @@ This command will automatically create a virtual environment and install the nec
 ```bash 
 uv run python 
 ``` 
+>[!NOTE]
+> Make sure you have `uv` installed. If not, you can install it using 
+> ```bash
+> wget -qO- https://astral.sh/uv/install.sh | sh
+> export PATH="$HOME/.local/bin:$PATH"
+> uv --version
+> ```
 
 
 ### Visual Encoder
@@ -22,5 +29,3 @@ Language Model are LLaMA like architectures with:
 - RoPE
 - Grouped Query Attention
 - KV Cache
-  
-  
